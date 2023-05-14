@@ -1,0 +1,148 @@
+﻿  BVH.cpp
+C:\Users\19675\OneDrive\桌面\TerranRender\algorithm\BVH.cpp(395,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(1534,67): warning C4244: 'argument': conversion from '_Ty1' to 'int', possible loss of data
+          with
+          [
+              _Ty1=unsigned __int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(651): message : see reference to function template instantiation 'void std::invoke<_Callable&,_Ty,>(SAHHybrid::BVHBuildByhybridSAH::<lambda_bacbf1f6016097b5c2572556d73bbf95>&,_Ty1 &&) noexcept(false)' being compiled
+          with
+          [
+              _Callable=SAHHybrid::BVHBuildByhybridSAH::<lambda_bacbf1f6016097b5c2572556d73bbf95>,
+              _Ty=unsigned __int64,
+              _Ty1=unsigned __int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(822): message : see reference to function template instantiation 'void std::_Invoker_ret<_Rx,true>::_Call<_Callable&,_Ty>(_Fx,_Ty &&) noexcept(false)' being compiled
+          with
+          [
+              _Rx=void,
+              _Callable=SAHHybrid::BVHBuildByhybridSAH::<lambda_bacbf1f6016097b5c2572556d73bbf95>,
+              _Ty=unsigned __int64,
+              _Fx=SAHHybrid::BVHBuildByhybridSAH::<lambda_bacbf1f6016097b5c2572556d73bbf95> &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(822): message : see reference to function template instantiation 'void std::_Invoker_ret<_Rx,true>::_Call<_Callable&,_Ty>(_Fx,_Ty &&) noexcept(false)' being compiled
+          with
+          [
+              _Rx=void,
+              _Callable=SAHHybrid::BVHBuildByhybridSAH::<lambda_bacbf1f6016097b5c2572556d73bbf95>,
+              _Ty=unsigned __int64,
+              _Fx=SAHHybrid::BVHBuildByhybridSAH::<lambda_bacbf1f6016097b5c2572556d73bbf95> &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(821): message : while compiling class template member function '_Rx std::_Func_impl_no_alloc<SAHHybrid::BVHBuildByhybridSAH::<lambda_bacbf1f6016097b5c2572556d73bbf95>,_Rx,unsigned __int64>::_Do_call(unsigned __int64 &&)'
+          with
+          [
+              _Rx=void
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(717): message : see reference to class template instantiation 'std::_Func_impl_no_alloc<SAHHybrid::BVHBuildByhybridSAH::<lambda_bacbf1f6016097b5c2572556d73bbf95>,_Ret,unsigned __int64>' being compiled
+          with
+          [
+              _Ret=void
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(911): message : see reference to variable template 'const bool _Is_large<std::_Func_impl_no_alloc<<lambda_bacbf1f6016097b5c2572556d73bbf95>,void,unsigned __int64> >' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(1042): message : see reference to function template instantiation 'void std::_Func_class<_Ret,unsigned __int64>::_Reset<SAHHybrid::BVHBuildByhybridSAH::<lambda_bacbf1f6016097b5c2572556d73bbf95>>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=void,
+              _Fx=SAHHybrid::BVHBuildByhybridSAH::<lambda_bacbf1f6016097b5c2572556d73bbf95>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(1042): message : see reference to function template instantiation 'void std::_Func_class<_Ret,unsigned __int64>::_Reset<SAHHybrid::BVHBuildByhybridSAH::<lambda_bacbf1f6016097b5c2572556d73bbf95>>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=void,
+              _Fx=SAHHybrid::BVHBuildByhybridSAH::<lambda_bacbf1f6016097b5c2572556d73bbf95>
+          ]
+C:\Users\19675\OneDrive\桌面\TerranRender\algorithm\BVH.cpp(78): message : see reference to function template instantiation 'std::function<void (unsigned __int64)>::function<SAHHybrid::BVHBuildByhybridSAH::<lambda_bacbf1f6016097b5c2572556d73bbf95>,0>(_Fx)' being compiled
+          with
+          [
+              _Fx=SAHHybrid::BVHBuildByhybridSAH::<lambda_bacbf1f6016097b5c2572556d73bbf95>
+          ]
+C:\Users\19675\OneDrive\桌面\TerranRender\algorithm\BVH.cpp(71): message : see reference to function template instantiation 'std::function<void (unsigned __int64)>::function<SAHHybrid::BVHBuildByhybridSAH::<lambda_bacbf1f6016097b5c2572556d73bbf95>,0>(_Fx)' being compiled
+          with
+          [
+              _Fx=SAHHybrid::BVHBuildByhybridSAH::<lambda_bacbf1f6016097b5c2572556d73bbf95>
+          ]
+  parallel.cpp
+  rayTracing.cpp
+C:\Users\19675\OneDrive\桌面\TerranRender\algorithm\rayTracing.cpp(304,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\19675\OneDrive\桌面\TerranRender\algorithm\rayTracing.cpp(356,13): warning C4018: '>': signed/unsigned mismatch
+C:\Users\19675\OneDrive\桌面\TerranRender\algorithm\rayTracing.cpp(405,13): warning C4018: '>': signed/unsigned mismatch
+  loadJPG.cpp
+  main.cpp
+  geometry.cpp
+C:\Users\19675\OneDrive\桌面\TerranRender\model\geometry.cpp(248,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\19675\OneDrive\桌面\TerranRender\model\geometry.cpp(252,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\19675\OneDrive\桌面\TerranRender\model\geometry.cpp(290,29): warning C4018: '<': signed/unsigned mismatch
+  load_data.cpp
+  scene.cpp
+  plot.cpp
+C:\Users\19675\OneDrive\桌面\TerranRender\openGL\plot.cpp(152,36): warning C4018: '<': signed/unsigned mismatch
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(1534,67): warning C4244: 'argument': conversion from '_Ty1' to 'int', possible loss of data
+          with
+          [
+              _Ty1=unsigned __int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(651): message : see reference to function template instantiation 'void std::invoke<_Callable&,_Ty,>(draw_scene::<lambda_428f864c2a70ae40ce03ae0aab118ca9>&,_Ty1 &&) noexcept(false)' being compiled
+          with
+          [
+              _Callable=draw_scene::<lambda_428f864c2a70ae40ce03ae0aab118ca9>,
+              _Ty=unsigned __int64,
+              _Ty1=unsigned __int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(822): message : see reference to function template instantiation 'void std::_Invoker_ret<_Rx,true>::_Call<_Callable&,_Ty>(_Fx,_Ty &&) noexcept(false)' being compiled
+          with
+          [
+              _Rx=void,
+              _Callable=draw_scene::<lambda_428f864c2a70ae40ce03ae0aab118ca9>,
+              _Ty=unsigned __int64,
+              _Fx=draw_scene::<lambda_428f864c2a70ae40ce03ae0aab118ca9> &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(822): message : see reference to function template instantiation 'void std::_Invoker_ret<_Rx,true>::_Call<_Callable&,_Ty>(_Fx,_Ty &&) noexcept(false)' being compiled
+          with
+          [
+              _Rx=void,
+              _Callable=draw_scene::<lambda_428f864c2a70ae40ce03ae0aab118ca9>,
+              _Ty=unsigned __int64,
+              _Fx=draw_scene::<lambda_428f864c2a70ae40ce03ae0aab118ca9> &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(821): message : while compiling class template member function '_Rx std::_Func_impl_no_alloc<draw_scene::<lambda_428f864c2a70ae40ce03ae0aab118ca9>,_Rx,unsigned __int64>::_Do_call(unsigned __int64 &&)'
+          with
+          [
+              _Rx=void
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(717): message : see reference to class template instantiation 'std::_Func_impl_no_alloc<draw_scene::<lambda_428f864c2a70ae40ce03ae0aab118ca9>,_Ret,unsigned __int64>' being compiled
+          with
+          [
+              _Ret=void
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(911): message : see reference to variable template 'const bool _Is_large<std::_Func_impl_no_alloc<<lambda_428f864c2a70ae40ce03ae0aab118ca9>,void,unsigned __int64> >' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(1042): message : see reference to function template instantiation 'void std::_Func_class<_Ret,unsigned __int64>::_Reset<draw_scene::<lambda_428f864c2a70ae40ce03ae0aab118ca9>>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=void,
+              _Fx=draw_scene::<lambda_428f864c2a70ae40ce03ae0aab118ca9>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\functional(1042): message : see reference to function template instantiation 'void std::_Func_class<_Ret,unsigned __int64>::_Reset<draw_scene::<lambda_428f864c2a70ae40ce03ae0aab118ca9>>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=void,
+              _Fx=draw_scene::<lambda_428f864c2a70ae40ce03ae0aab118ca9>
+          ]
+C:\Users\19675\OneDrive\桌面\TerranRender\openGL\plot.cpp(149): message : see reference to function template instantiation 'std::function<void (unsigned __int64)>::function<draw_scene::<lambda_428f864c2a70ae40ce03ae0aab118ca9>,0>(_Fx)' being compiled
+          with
+          [
+              _Fx=draw_scene::<lambda_428f864c2a70ae40ce03ae0aab118ca9>
+          ]
+C:\Users\19675\OneDrive\桌面\TerranRender\openGL\plot.cpp(128): message : see reference to function template instantiation 'std::function<void (unsigned __int64)>::function<draw_scene::<lambda_428f864c2a70ae40ce03ae0aab118ca9>,0>(_Fx)' being compiled
+          with
+          [
+              _Fx=draw_scene::<lambda_428f864c2a70ae40ce03ae0aab118ca9>
+          ]
+  Generating Code...
+C:\Users\19675\OneDrive\桌面\TerranRender\model\geometry.cpp(124): warning C4715: 'ray_object_intersection': not all control paths return a value
+C:\Users\19675\OneDrive\桌面\TerranRender\algorithm\rayTracing.cpp(27): warning C4715: 'ray_launcher': not all control paths return a value
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+  jpeg.lib(jerror.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+  Generating code
+  Finished generating code
+  RayTracingRender.vcxproj -> C:\Users\19675\OneDrive\桌面\TerranRender\Bin\Release\RayTracingRender.exe
